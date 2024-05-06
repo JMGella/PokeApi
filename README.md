@@ -15,4 +15,3 @@ Este proyecto es una aplicación web que utiliza la PokeAPI para obtener informa
 - **PokeAPI:** Utilizada para obtener datos sobre Pokémon, incluyendo detalles y sprites.
 
 
-https://poke-8oqvtwftb-javiers-projects-90286a4a.vercel.app/
