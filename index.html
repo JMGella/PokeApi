@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad Aprendizaje</title>
+    <link rel="icon" href="images/pokeball.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container font-monospace">
+      <!--header -->
+      <header class="d-flex justify-content-center py-3 mb-4 border-bottom">
+        <a
+          href="index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="images/pokeball.png"
+            class="bi me-2"
+            width="40"
+            height="40"
+          />
+          <span class="fs-4"> Actividad Aprendizaje: PokeApi</span>
+        </a>
+      </header>
+    </div>
+
+    <div class="container font-monospace">
+      <!--barra de busqueda -->
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid justify-content-center">
+          <form class="d-flex col-8" onsubmit="return false">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="Buscador de Pokemons"
+              name="search"
+              id="search"
+            />
+            <button class="btn btn-outline-success" id="button">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container p-4 font-monospace">
+      <!--paginacion arriba -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-6 d-flex justify-content-around">
+          <div id="prevpage"></div>
+          <div id="nextpage"></div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary font-monospace">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="lista">
+          <!-- Aquí van las tarjetas delos pokemons -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-4 font-monospace">
+      <!--paginacion abajo -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-6 d-flex justify-content-around">
+          <div id="prevpage2"></div>
+          <div id="nextpage2"></div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <div class="container font-monospace">
+      <!--footer -->
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © 2024 Actividad de Aprendizaje PokeApi
+        </p>
+
+        <a
+          href="index.html"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="images/pokeball.png"
+            class="bi me-2"
+            width="40"
+            height="40"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

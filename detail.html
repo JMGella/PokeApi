@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/pokeball.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="js/script-detail.js"></script>
+  </head>
+
+  <body>
+    <div class="container font-monospace mb-5">
+      <header class="d-flex justify-content-center py-3 mb-4 border-bottom">
+        <a
+          href="index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="images/pokeball.png"
+            class="bi me-2"
+            width="40"
+            height="40"
+          />
+          <span class="fs-4"> Actividad Aprendizaje: PokeApi</span>
+        </a>
+      </header>
+    </div>
+
+    <div class="container font-monospace">
+      <hr class="hr" />
+      <div class="row" id="imagenes">
+        <!-- imagenes pokemon por JS-->
+        <div class="col-6 justify-content-center">
+          <div class="container">
+            <div class="col p-5">
+              <h1 class="text-center" id="name">POKEMON</h1>
+              <h4 class="text-center">ID: <span id="id"></span></h4>
+              <div class="pt-4">
+                <p class="lead text-center" id="description">
+                  No hay descripción de este Pokemon
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="m-3 text-center">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span><b>Tipos: </b></span><span id="type"></span>
+              </li>
+              <li class="list-group-item">
+                <span><b>Peso: </b></span><span id="weight"></span>
+              </li>
+              <li class="list-group-item">
+                <span><b>Altura: </b></span><span id="height"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="m-3 text-center">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span><b>Habilidades: </b></span><span id="abilities"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="m-3 text-center">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span><b>Estadísticas: </b></span>
+              </li>
+              <li class="list-group-item">
+                <p><span id="stats"></span></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="hr" />
+    </div>
+
+    <div class="container font-monospace fixed-bottom">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © 2024 Actividad de Aprendizaje PokeApi
+        </p>
+
+        <a
+          href="index.html"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="images/pokeball.png"
+            class="bi me-2"
+            width="40"
+            height="40"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
