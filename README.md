@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación web que utiliza la PokeAPI para obtener información sobre Pokémon. Proporciona una interfaz de usuario simple para buscar y visualizar detalles sobre diferentes Pokémon.
 
-![imagen](imagenpokeapi)
+![imagen](imagenpokeapi.png)
 
 ## Funcionalidades
 
